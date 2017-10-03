@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 3, 2015, 3:40:32 PM
+    Author     : Shohag
+*/
+
+
+.root{
+    -fx-background-color: #cccccc;
+    -fx-background-size: auto;
+    -fx-background-radius: 5;
+}
+
+.my_Hbox{
+    -fx-spacing: 10;
+    -fx-padding: 10;
+    -fx-background-color: #cccccc;
+    -fx-background-radius: 5;
+    -fx-border-color: #666666;
+    -fx-border-width: 2;
+}
+
+.my_Vbox{
+    -fx-spacing: 10;
+    -fx-padding: 10;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-color: #666666;
+    -fx-border-width: 2;
+}
+
+.my_Pane{
+    -fx-background-color: #ccccff;
+    -fx-spacing: 10;
+    -fx-background-radius: 10;
+    -fx-border-color: #006666;
+    -fx-border-width: 2;
+    -fx-padding:10;
+    -fx-spacing:2.5;
+}
+.hard_Pane{
+    -fx-background-color:#666666;
+    -fx-spacing: 10;
+    -fx-background-radius: 10;
+    -fx-border-color: #006666;
+    -fx-border-width: 2;
+    -fx-padding:10;
+    -fx-spacing:2.5;
+}
+.medium_Pane{
+    -fx-background-color:#333333;
+    -fx-spacing: 10;
+    -fx-background-radius: 10;
+    -fx-border-color: #006666;
+    -fx-border-width: 2;
+    -fx-padding:10;
+    -fx-spacing:2.5;
+}
+
+.my_Label{
+   -fx-font-size: 30;
+   -fx-font-weigt: bold;
+}
+
+.easy_level_Complete{
+    //-fx-background-image:url('res/easy/pic.jpg');
+    -fx-background-size: cover;
+   -fx-font-size: 50;
+    
+   -fx-font-weigt: bold;
+   
+}
+.medium_level_Complete{
+    //-fx-background-image:url('res/medium/pic.jpg');
+    -fx-background-size: cover;
+   -fx-font-size: 50;
+   -fx-font-weigt: bold;
+   
+}
+
+.hard_level_Complete{
+    //-fx-background-image:url('res/hard/pic.jpg');
+    -fx-background-size: cover;
+   -fx-font-size: 50;
+   -fx-font-weigt: bold;
+   
+}
